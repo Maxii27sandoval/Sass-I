@@ -1,0 +1,22 @@
+/* productos destacados*/
+#productos{
+	.destacados{
+		article{
+			background-color:$secondaryColor;
+			p{
+				font-size: $textLg;
+				line-height: 2.4rem;
+				padding: 50px;
+				margin: 20px auto;
+				color:$white;
+			}
+			h3{
+				color: $white;
+				font-size: 3rem;
+				padding-left: 50px;
+				font-family: $mainFont;
+			}
+		}
+	}
+}
+

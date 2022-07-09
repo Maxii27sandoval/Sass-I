@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap");
+.textDestacado {
+  background-color: rgba(255, 252, 0, 0.4); }
+
+.textBold {
+  font-weight: 600; }
+
+.textCenter {
+  text-align: center; }
+
+.textRight {
+  text-align: right; }
+
+.textLeft {
+  text-align: left; }
+
+.botonera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(91, 129, 136, 0.486);
+  padding: 4px 30px; }
+  .botonera img {
+    width: 200px; }
+    @media (min-width: 280px) and (max-width: 320px) {
+      .botonera img {
+        width: 150px; } }
+  .botonera ul {
+    display: flex; }
+    .botonera ul li {
+      list-style: none;
+      margin-right: 10px; }
+      .botonera ul li a {
+        color: rgb(106, 117, 131);
+        font-size: 1em;
+        text-decoration: none;
+        font-family: "Nunito Sans", sans-serif; }
+        .botonera ul li a:hover {
+          color: #1A1A1A;
+          text-decoration: underline; }
+
+.logotipo{
+  max-width: 80px;
+}
+
+* {
+  padding: 0;
+  margin: 0; }
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Roboto", sans-serif;
+  color: rgb(65, 60, 104);
+  padding: 10px 30px; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.3em;
+  text-align: center;}
+
+  h4{
+    font-size: 1.1rem;
+  }
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  color: #504f4f;
+  font-size: 1em;
+  padding: 10px 30px; }
+
+.salto{
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.cavi{
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.dormir{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.comer{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.comercio{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+
+
+.bgLight {
+  background-color: rgba(243, 240, 240, 0.8); }
+
+.bgDark {
+  background-color: rgba(195, 190, 190, 0.8); }
+
+.btnXl {
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  color: violet;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: 2rem;
+  /****display flex****/
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* productos destacados*/
+#productos .destacados article {
+  background-color: rgba(59, 112, 136, 0.7); }
+  #productos .destacados article p {
+    font-size: 1.6em;
+    line-height: 2.4rem;
+    padding: 50px;
+    margin: 20px auto;
+    color: #F8F5F5; }
+  #productos .destacados article h3 {
+    color: #F8F5F5;
+    font-size: 3rem;
+    padding-left: 50px;
+    font-family: "Roboto", sans-serif; }
+
+footer {
+  background-color: rgb(91, 129, 136);
+  color: #1A1A1A;
+  font-size: 1em;
+  text-align: center; }
